@@ -10,7 +10,7 @@ class Storage {
     }
 
     addItem(newItem) {
-        this.#items = push(newItem);
+        this.#items.push(newItem);
     }
 
     removeItem(itemToRemove) {
